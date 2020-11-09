@@ -40,7 +40,7 @@ FaculType is a **desktop app** for managing **faculty members and their modules*
 
 ## Features
 
-<span markdown="block" class="alert alert-info">
+<div markdown="block" class="alert alert-info">
 
 **:information_source: Notes about the command format:**<br>
 
@@ -56,7 +56,7 @@ FaculType is a **desktop app** for managing **faculty members and their modules*
 * Parameters can be in any order.<br>
   e.g. if the command specifies `n/NAME p/PHONE_NUMBER`, `p/PHONE_NUMBER n/NAME` is also acceptable.
 
-</span>
+</div>
 
 ### General Features
 
@@ -127,9 +127,9 @@ Adds a contact to FaculType.
 Format: `add n/NAME p/PHONE_NUMBER e/EMAIL d/DEPARTMENT o/OFFICE [t/TAG]…​
 ​`
 
-<span markdown="span" class="alert alert-primary">:bulb: **Tip:**
+<div markdown="span" class="alert alert-primary">:bulb: **Tip:**
 A contact can have any number of tags (including 0)
-</span>
+</div>
 
 Examples:
 * `add n/Janson Garrick p/98765432 e/jansongarrick@example.com d/Computer Science o/B01-A3`
